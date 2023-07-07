@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: 100%;    
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+}
+
+.tooltip-inner{
+    background-color: #483c32;
+    max-width: 500px;
+}
+
